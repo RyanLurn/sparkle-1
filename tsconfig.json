@@ -23,8 +23,8 @@
     /* If your code doesn't run in the DOM: */
     "lib": ["es2022"],
 
-    "rootDir": "."
+    "rootDir": "./src"
   },
-  "include": ["src/**/*", "eslint.config.mjs"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
