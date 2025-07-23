@@ -1,5 +1,5 @@
-const greeting = (name: string): string => {
-  return `Hello, ${name}!`;
-};
+import { intro, outro } from "@clack/prompts";
 
-console.log(greeting("World"));
+intro(`create-sparkle`);
+
+outro(`You're all set!`);
